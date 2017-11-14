@@ -5,6 +5,7 @@
   height: 40px;
   line-height: 40px;
   border-radius: 0;
+  border: 1px solid #ccc;
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow {
   height: 38px; width: 40px;
@@ -848,4 +849,9 @@
 .frm-register-bds .map-wrap iframe {
   width: 100% !important;
   height: 450px !important;
+}
+.frm-register-bds .upload-photo-wrap {
+  border: 1px solid #e5e5f8;
+  padding: 10px;
+  margin-bottom: 20px;
 }

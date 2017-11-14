@@ -710,9 +710,6 @@ h1, h2, h3, h4, h5, h6 {
   .block-logo {
     width: 23%;
   }
-  .menu-top {
-    display: none;
-  }
   .hdr-btn-post {
     top: 18%;
     right: 10%;
@@ -1810,7 +1807,7 @@ figure {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  padding: 5% 0 7%;
+  padding: 4% 0 5%;
   color: #fff;
   position: relative;
 }
@@ -1888,7 +1885,7 @@ figure {
   ========================================================================== */
 .footer {
   background: #fefeff;
-  padding: 6% 3% 0;
+  padding: 3% 3% 0;
 }
 .footer-top {
   padding: 5% 0 3%;
@@ -2186,6 +2183,7 @@ figure {
 .block-module {
   background: #fff;
   margin-bottom: 30px;
+  border: 1px solid #e5e5f8;
   position: relative;
 }
 .block-module .block-title .title {
