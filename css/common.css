@@ -14,7 +14,7 @@
 .fs11 {
 	font-size: 11px !important;
 }
-.cl-red {
+.text-red {
   color: #c70f19;
 }
 .text-small {
@@ -23,6 +23,9 @@
 }
 .text-italic {
   font-style: italic;
+}
+.text-black {
+  color: #444 !important;
 }
 .show {
   width: 100% !important;
