@@ -13,29 +13,6 @@
     "use strict";
   /* ==================================================== */
 
-  // The slider being synced must be initialized first
-    $('#carousel').flexslider({
-      animation: "slide",
-      controlNav: false,
-      animationLoop: true,
-      slideshow: false,
-      itemWidth: 75,
-      itemMargin: 15,
-      nextText: "",
-      prevText: "",
-      asNavFor: '#slider'
-    });
-
-    $('#slider').flexslider({
-      animation: "fade",
-      controlNav: false,
-      directionNav: false,
-      animationLoop: false,
-      slideshow: false,
-      animationSpeed: 500,
-      sync: "#carousel"
-    });
-
   /*
    * 1. Slide Carousel
   */
