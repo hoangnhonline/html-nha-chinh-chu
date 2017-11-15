@@ -89,3 +89,14 @@
   box-shadow: none;
   height: 40px;
 }
+
+.login-by {
+  margin-bottom: 30px;
+}
+.login-by strong {
+  display: inline-block;
+  margin-right: 15px;
+}
+.login-by span img {
+  border-radius: 5px;
+}
