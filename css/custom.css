@@ -926,8 +926,46 @@
 }
 .frm-contact .form-control {
   border-width: 0 0 1px 0;
+  padding-left: 0;
 }
 .frm-contact .form-control:focus {
   border-width: 0 0 1px 0;
   color: #000;
+  box-shadow: none;
+}
+
+.project-detail {
+  margin-bottom: 30px;
+}
+.project-detail header {
+  margin-bottom: 20px;
+}
+.project-detail header .project-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.project-detail header .project-meta span {
+  font-weight: 100;
+  color: #666;
+  font-size: 13px;
+}
+.project-detail header .project-meta span:not(:first-child) {
+  margin-left: 15px;
+}
+.project-detail header .project-meta span .fa {
+  font-weight: bold;
+  color: #ccc;
+}
+
+.block-comment {
+
+}
+.frm-comment .form-control {
+  border-width: 0 0 1px 0;
+  padding: 0 0 2px 0;
+}
+.frm-comment .form-control:focus {
+  border-width: 0 0 1px 0;
+  color: #000;
+  box-shadow: none;
 }
