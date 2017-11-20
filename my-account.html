@@ -205,12 +205,20 @@
 												<input type="text" class="form-control" id="" name="" value="" placeholder="0123456789">
 											</div>
 										</div>
+
 										<div class="col-md-6">
-											<div class="form-group">
-												<div class="label-group">
-													<label for="">&nbsp;</label>
+											<div class="row">
+												<div class="col-xs-8">
+													<div class="fileupload-preview thumbnail" style="width: 200px; height: 150px;"></div>
 												</div>
-												<input type="text" class="form-control" id="" name="" value="" placeholder="Đường">
+												<div class="col-xs-4">
+													<span class="btn btn-file">
+														<span class="fileupload-new btn btn-main">Select image</span>
+														<span class="fileupload-exists">Change</span>
+														<input type="file" />
+													</span>
+													<a href="#" class="btn btn-danger fileupload-exists" data-dismiss="fileupload">Remove</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -244,7 +252,7 @@
 								</form>
 							</div><!-- /block-register-bds -->
 						</div>
-						
+
 					</div><!-- /row -->
 
 				</div><!-- /main-content-wrap -->
@@ -401,20 +409,6 @@
     <script src="lib/flexslider/jquery.flexslider-min.js"></script>
     <!-- Js Common -->
 	<script src="js/common.js"></script>
-
-	<script>
-		jQuery('.fb-page1').toggleClass('hide');
-			jQuery('#closefbchat').html('<i class="fa fa-comments fa-2x"></i> Chat Tư Vấn').css({'bottom':0});
-		jQuery('#closefbchat').click(function(){
-			jQuery('.fb-page1').toggleClass('hide');
-			if(jQuery('.fb-page1').hasClass('hide')){
-				jQuery('#closefbchat').html('<i class="fa fa-comments fa-2x"></i> Chat Tư Vấn').css({'bottom':0});
-			}
-			else{
-				jQuery('#closefbchat').text('Tắt Chat').css({'bottom':299});
-			}
-		});
-	</script>
 
 </body>
 </html>
