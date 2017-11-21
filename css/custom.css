@@ -125,6 +125,7 @@
 .block-search-home {
   position: relative;
   padding: 4% 0 0;
+  margin-bottom: 1%;
 }
 .block-search-home .map-wrap iframe.googlemap {
 	width: 100%;
@@ -136,6 +137,8 @@
 }
 .block-search-home .form-search-wrap {
   position: relative;
+  margin-top: -185px;
+  z-index: 9999;
 }
 .block-search-home .form-search-wrap .box-title {
   display: inline-block;

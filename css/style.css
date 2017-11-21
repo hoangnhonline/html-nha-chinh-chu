@@ -1711,6 +1711,9 @@ figure {
   -webkit-transition: all 1s ease 0s;
   -o-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
+  border-top: 1px solid #e5e5f8;
+  border-right: 1px solid #e5e5f8;
+  border-left: 1px solid #e5e5f8;
 }
 .property-item:hover {
   border-bottom: 4px solid #ff7f27;
@@ -1798,7 +1801,7 @@ figure {
 }
 .property-item .property-info .property-price .price-new {
   font-size: 14px;
-  color: #114a82;
+  color: #00a2e8;
   margin-right: 20px;
   font-weight: bold;
 }
@@ -1816,6 +1819,125 @@ figure {
   background: #c70f19;
   color: #fff;
   border-radius: 5px;
+}
+.property-item .property-info .property-tt {
+  border-top: 1px solid #e5e5f8;
+  border-bottom: none;
+  padding: 8px 5px;
+  margin: 15px 0 0;
+}
+.property-item .property-info .property-tt li {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  border-left: 1px solid #e5e5f8;
+  padding: 0;
+}
+.property-item .property-info .property-tt li:first-child {
+  border-left: none;
+}
+.property-item .property-info .property-tt li .fa {
+  color: #f9a11b;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.property-list.style-grid2 .property-item {
+  clear: left;
+  overflow: hidden;
+  position: relative;
+}
+.property-list.style-grid2 .property-item .property-thumb {
+  float: left;
+  position: relative;
+  max-width: 240px;
+  max-height: 240px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.property-list.style-grid2 .property-item .property-thumb img {
+  width: 100%; height: 100%;
+}
+.property-list.style-grid2 .property-item .property-info {
+  background: #fff;
+  float: left;
+  padding: 10px 10px 0;
+  width: calc(100% - 240px);
+  overflow: hidden;
+}
+.property-list.style-grid2 .property-item .property-info .property-location {
+  text-overflow: inherit;
+  white-space: normal;
+  height: auto; line-height: 20px;
+}
+.property-list.style-grid2 .property-item .property-info .property-tt {
+  margin: 20px 0;
+  overflow: hidden;
+}
+.property-list.style-grid2 .property-item .property-info .property-tt li {
+  display: inline-block;
+  color: #515666;
+  font-size: 14px;
+  width: 50%;
+  float: left;
+  padding-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+.property-list.style-grid2 .property-item .property-info .property-tt li:hover {
+  background: #f2f2f2;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-price {
+  color: #f9a11b;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-price {
+  width: 50%;
+  font-size: 14px;
+  line-height: 15px;
+  float: left;
+  color: #00a2e8;
+  font-weight: bold;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-action {
+  font-size: 20px;
+  line-height: 15px;
+  float: right;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-action .icon {
+  display: inline-block;
+  float: right;
+  font-size: 15px;
+  line-height: 30px;
+  width: 36px; text-align: center;
+  border-bottom: none;
+  border-right: 1px solid #e5e5f8;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-action .icon:hover {
+  background: #f2f2f2;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-action .icon:last-child {
+  border-right: none;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-action .icon.icon-sharing {
+  position: relative;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-action .icon.icon-sharing .social-property {
+  position: absolute;
+  top: 100%; right: 0;
+  display: none;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-action .icon.icon-sharing:hover .social-property {
+  display: block;
+  top: 0;
+}
+.property-list.style-grid2 .property-item .property-info .property-action .box-action .icon.icon-sharing .social-property a {
+  display: inline-block;
 }
 
 /* Register Email
