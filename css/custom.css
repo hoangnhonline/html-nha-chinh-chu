@@ -124,8 +124,7 @@
 /* block-search-home */
 .block-search-home {
   position: relative;
-  padding: 4% 0 0;
-  margin-bottom: 1%;
+  padding-bottom: 2%;
 }
 .block-search-home .map-wrap iframe.googlemap {
 	width: 100%;
@@ -169,7 +168,7 @@
   text-transform: uppercase;
 }
 .block-search-home .form-search-wrap .frm-search .btn:before {
-  border: solid transparent;
+  /*border: solid transparent;
   content: " ";
   height: 0;
   width: 0;
@@ -182,7 +181,11 @@
   top: -10px; right: 5px;
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+  transform: rotate(45deg);*/
+}
+
+.block-search-home.style-2 .form-search-wrap {
+  margin: 0;
 }
 
 

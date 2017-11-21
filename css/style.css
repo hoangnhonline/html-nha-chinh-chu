@@ -1871,8 +1871,9 @@ figure {
   height: auto; line-height: 20px;
 }
 .property-list.style-grid2 .property-item .property-info .property-tt {
-  margin: 20px 0;
+  margin: 20px 0 14px;
   overflow: hidden;
+  border-top: none;
 }
 .property-list.style-grid2 .property-item .property-info .property-tt li {
   display: inline-block;
@@ -1886,10 +1887,11 @@ figure {
   white-space: nowrap;
   border: none;
   text-align: left;
-  cursor: pointer;
 }
-.property-list.style-grid2 .property-item .property-info .property-tt li:hover {
-  background: #f2f2f2;
+.property-list.style-grid2 .property-item .property-info .property-action {
+  border-top: 1px solid #e5e5f8;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .property-list.style-grid2 .property-item .property-info .property-action .box-price {
   color: #f9a11b;
@@ -1903,6 +1905,7 @@ figure {
   float: left;
   color: #00a2e8;
   font-weight: bold;
+  padding: 10px 0 0 10px;
 }
 .property-list.style-grid2 .property-item .property-info .property-action .box-action {
   font-size: 20px;
@@ -1913,10 +1916,11 @@ figure {
   display: inline-block;
   float: right;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 35px;
   width: 36px; text-align: center;
   border-bottom: none;
   border-right: 1px solid #e5e5f8;
+  cursor: pointer;
 }
 .property-list.style-grid2 .property-item .property-info .property-action .box-action .icon:hover {
   background: #f2f2f2;
@@ -1938,6 +1942,7 @@ figure {
 }
 .property-list.style-grid2 .property-item .property-info .property-action .box-action .icon.icon-sharing .social-property a {
   display: inline-block;
+
 }
 
 /* Register Email
