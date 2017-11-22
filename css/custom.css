@@ -864,23 +864,68 @@
 
 /* About Page
   ------------------------------- */
+.block-about-top {
+  background: #ccc;
+  padding: 4% 0;
+}
+.block-about-top .block-faq .boxx-title {
+  
+}
 /* block-staff-list */
 .block-staff-list .staff-item {
-  border: 1px solid #ccc;
+  border: 1px solid #e2e2e2;
   background: #fff;
+  position: relative;
+  box-shadow: 1px 3px 6px 0px #ccc;
+  transition: 1s;
 }
 .block-staff-list .staff-item figure {
   height: 300px;
   position: relative;
+  overflow: hidden;
+}
+.block-staff-list .staff-item figure img {
+  transition: 1s;
+}
+.block-staff-list .staff-item:hover figure img {
+  -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 .block-staff-list .staff-item figure:after {
-  height: 300px;
+
 }
 .block-staff-list .staff-item figcaption .staff-title {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
-  padding-top: 10px;
+  padding: 30px 10px;
+  text-transform: uppercase;
+}
+
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: -60px; right: 0;
+}
+.owl-carousel .owl-nav .owl-next, 
+.owl-carousel .owl-nav .owl-prev {
+  display: inline-block;
+  width: 38px; height: 38px; line-height: 38px;
+  text-align: center;
+  background: #114a82;
+  color: #fff;
+  font-size: 25px;
+  transition: 0.5s;
+}
+.owl-carousel .owl-nav .owl-prev {
+  margin-right: 2px;
+}
+.owl-carousel .owl-nav .owl-next {
+  margin-left: 2px;
+}
+.owl-carousel .owl-nav .owl-next:hover, 
+.owl-carousel .owl-nav .owl-prev:hover {
+  background: #ff7f27;
 }
 
 /* Contact Page
