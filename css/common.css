@@ -34,7 +34,6 @@
   border-radius: 0;
   color: #fff;
   position: relative;
-  min-width: 200px;
 }
 .btn.add_arrow:before {
   border: solid transparent;

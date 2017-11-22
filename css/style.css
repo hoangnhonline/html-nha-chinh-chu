@@ -2540,6 +2540,7 @@ figure {
   ========================================================================== */
 .single-property-content {
   position: relative;
+  margin-bottom: 30px;
 }
 .single-property-content header {
   position: relative;
@@ -2579,10 +2580,10 @@ figure {
   background-color: #ff7f27;
 }
 .single-property-content header .btn-toolbar .btn-next:hover {
-  background-color: #ff7f27;
+  background-color: #ed721d;
 }
 .single-property-content header .btn-toolbar .btn-pre {
-  background-color: #f1f1f1;
+  background-color: #e2e2e2;
 }
 .single-property-content header .btn-toolbar .btn-pre:hover {
   background-color: #d8d8d8;
@@ -2658,6 +2659,18 @@ figure {
 }
 .single-property-content .property-content-detail-wrap .property-content-detail {
   line-height: 1.8;
+}
+.single-property-content .person-check-post {
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.single-property-content .person-check-post p {
+  text-align: right;
+  font-style: italic;
+}
+.single-property-content .person-check-post p span:last-child{
+  font-weight: bold;
 }
 
 .block-slide-detail #slider.flexslider {
