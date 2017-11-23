@@ -63,7 +63,6 @@
     z-index: -1;
   }
 
-  
   .menu {
     background-color: #ff781e;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
@@ -341,8 +340,6 @@
     display: none;
   }
 }
-
-
 
 /*----------------
 [Styles for devices max 768px

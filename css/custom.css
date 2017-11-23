@@ -868,9 +868,31 @@
   background: #ccc;
   padding: 4% 0;
 }
-.block-about-top .block-faq .boxx-title {
-  
+.block-about-top .block-faq .box-title {
+
 }
+.block-about-top .block-faq .panel-group .panel {
+  margin-bottom: 0;
+}
+.block-about-top .block-faq .panel-group .panel:not(:last-child) {
+  border-bottom: none;
+}
+.block-about-top .block-faq .panel-group .panel:last-child {
+  border-top: none;
+}
+.block-about-top .block-faq .panel-group .panel .panel-heading {
+
+}
+.block-about-top .block-faq .panel-group .panel .panel-heading .panel-title {
+
+}
+.block-about-top .block-faq .panel-group .panel .panel-collapse {
+
+}
+.block-about-top .block-faq .panel-group .panel .panel-collapse .panel-body {
+
+}
+
 /* block-staff-list */
 .block-staff-list .staff-item {
   border: 1px solid #e2e2e2;
@@ -907,7 +929,7 @@
   position: absolute;
   top: -60px; right: 0;
 }
-.owl-carousel .owl-nav .owl-next, 
+.owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-nav .owl-prev {
   display: inline-block;
   width: 38px; height: 38px; line-height: 38px;
@@ -923,7 +945,7 @@
 .owl-carousel .owl-nav .owl-next {
   margin-left: 2px;
 }
-.owl-carousel .owl-nav .owl-next:hover, 
+.owl-carousel .owl-nav .owl-next:hover,
 .owl-carousel .owl-nav .owl-prev:hover {
   background: #ff7f27;
 }

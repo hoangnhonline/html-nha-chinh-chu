@@ -251,7 +251,7 @@
 												<div class="label-group">
 													<label for="">Mô tả thêm bất động sản</label>
 												</div>
-												<textarea id="" name="" class="form-control" rows="8" cols="80" placeholder="Mô tả bất động sản..."></textarea>
+												<textarea id="" name="" class="form-control editorBasic" rows="8" cols="80" placeholder="Mô tả bất động sản..."></textarea>
 											</div>
 										</div>
 									</div>
@@ -451,27 +451,33 @@
 	<!-- carousel -->
 	<script src="lib/carousel/owl.carousel.min.js"></script>
 	<!-- sticky -->
-    <script src="lib/sticky/jquery.sticky.js"></script>
-    <!-- Js zoom -->
-    <script src="lib/jquery.zoom.min.js"></script>
-    <!-- Flexslider -->
-    <script src="lib/flexslider/jquery.flexslider-min.js"></script>
-    <!-- Js Common -->
+	<script src="lib/sticky/jquery.sticky.js"></script>
+	<!-- Js zoom -->
+	<script src="lib/jquery.zoom.min.js"></script>
+	<!-- Flexslider -->
+	<script src="lib/flexslider/jquery.flexslider-min.js"></script>
+	<!-- Include Editor -->
+	<script src="tinymce/tinymce.min.js"></script>
+	<!-- Js Common -->
 	<script src="js/common.js"></script>
 
 	<script>
-		jQuery('.fb-page1').toggleClass('hide');
-			jQuery('#closefbchat').html('<i class="fa fa-comments fa-2x"></i> Chat Tư Vấn').css({'bottom':0});
-		jQuery('#closefbchat').click(function(){
-			jQuery('.fb-page1').toggleClass('hide');
-			if(jQuery('.fb-page1').hasClass('hide')){
-				jQuery('#closefbchat').html('<i class="fa fa-comments fa-2x"></i> Chat Tư Vấn').css({'bottom':0});
-			}
-			else{
-				jQuery('#closefbchat').text('Tắt Chat').css({'bottom':299});
-			}
-		});
-	</script>
+
+/* Mditor Tinymce */
+  tinymce.init({
+    selector: '.editorBasic',
+    plugins: [
+      "advlist autolink autosave link image lists charmap print preview hr anchor pagebreak spellchecker",
+      "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+      "table contextmenu directionality emoticons template textcolor paste fullpage textcolor colorpicker textpattern"
+    ],
+
+    toolbar1: "undo redo | bold italic | styleselect | forecolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link unlink",
+
+    menubar: 'false'
+  });
+
+</script>
 
 </body>
 </html>
