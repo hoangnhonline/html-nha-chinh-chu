@@ -21,7 +21,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- ===== Responsive CSS ===== -->
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-fileupload.css">
 
   	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -208,6 +207,16 @@
 										</div>
 
 										<div class="col-md-6">
+											<div class="fileinput fileinput-new" data-provides="fileinput">
+  <div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
+    <img data-src="holder.js/100%x100%" alt="...">
+  </div>
+  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+  <div>
+    <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+    <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+  </div>
+</div>
 											<div class="row">
 												<div class="col-xs-8">
 													<div class="fileupload-preview thumbnail" style="width: 200px; height: 150px;"></div>
@@ -400,7 +409,7 @@
 	<script src="lib/bootstrap/bootstrap.min.js"></script>
 	<script src="lib/bootstrap/bootstrap-fileupload.js"></script>
 	<!-- ===== Select2 ===== -->
-	<script src="lib/select2/select2.min.js"></script>
+	<script src="lib/select2/select2.min.js"></script>	
 	<!-- carousel -->
 	<script src="lib/carousel/owl.carousel.min.js"></script>
 	<!-- sticky -->
