@@ -17,6 +17,9 @@
 .text-red {
   color: #c70f19;
 }
+.text-large {
+  font-size: 18px;
+}
 .text-small {
   font-size: 11px;
   color: #666;
